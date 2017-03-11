@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackground">
+
+    <group android:checkableBehavior="single" android:id="@+id/a">
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_audiotrack_black_48dp"
+            android:title="Music" />
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_highlight_black_48dp"
+            android:title="Connect Arduino" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_black_48dp"
+            android:title="About" />
+    </group>
+
+
+    <group android:checkableBehavior="single" android:id="@+id/b">
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_insert_emoticon_black_48dp"
+                android:title="Rate App" />
+
+    </group>
+
+</menu>
